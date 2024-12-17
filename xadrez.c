@@ -24,5 +24,18 @@ int main() {
         printf("Esquerda\n");
     }
 
+    // Movimentação do Cavalo
+    printf("\nMovimentação do Cavalo:\n");
+
+    // Loop externo usando for para a movimentação para baixo
+    for (int i = 0; i < 2; i++) {
+        printf("Baixo\n");
+    }
+
+    // Loop interno usando for para a movimentação para a esquerda
+    for (int j = 0; j < 1; j++) {
+        printf("Esquerda\n");
+    }
+
     return 0;
 }
